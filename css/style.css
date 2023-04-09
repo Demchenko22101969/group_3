@@ -1,0 +1,53 @@
+.contact_text {
+    color: rgb(115, 209, 209);
+}
+
+.contact_numer {
+    color: coral;
+}
+
+
+
+
+
+.menu__content {
+    justify-content: end;
+}
+
+.menu__list {
+    margin-right: 15px;
+}
+
+.nav-item {
+    margin-right: 7px;
+}
+
+.nav-link {
+    color: rgb(39, 30, 30);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: rgb(227, 136, 24);
+}
+
+.menu__link-btn {
+    color: #fff;
+    background-color: rgb(227, 136, 24);
+    border: 1px solid rgb(227, 136, 24);
+    border-radius: 50%;
+}
+
+.menu__link-btn:hover {
+    background-color: #ee7171;
+    border: 1px solid #ee7171;
+}
+
+.menu__btn-span {
+    color: #fff;
+}
+
+
