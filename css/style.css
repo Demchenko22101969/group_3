@@ -1,59 +1,56 @@
 .contact_text {
     color: rgb(115, 209, 209);
-}
-
-.contact_numer {
+  }
+  
+  .contact_numer {
     color: coral;
-}
-
-
-@media screen and (max-width: 992px) {
+  }
+  .nav-contact {
+    justify-content: end;
+  }
+  
+  @media screen and (max-width: 992px) {
     .nav-link {
       font-size: 10px;
     }
+    .nav-contact {
+      justify-content: center;
+    }
   }
-
-
-
-
-.menu__content {
-    justify-content: end;
-}
-
-.menu__list {
+  
+  .menu__list {
     margin-right: 15px;
-}
-
-.nav-item {
+  }
+  
+  .nav-item {
     margin-right: 7px;
-}
-
-.nav-link {
+  }
+  
+  .nav-link {
     color: rgb(39, 30, 30);
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
-}
-
-.nav-link:hover {
+  }
+  
+  .nav-link:hover {
     color: rgb(227, 136, 24);
-}
-
-.menu__link-btn {
+  }
+  
+  .menu__link-btn {
     color: #fff;
     background-color: rgb(227, 136, 24);
     border: 1px solid rgb(227, 136, 24);
     border-radius: 50%;
-}
-
-.menu__link-btn:hover {
+  }
+  
+  .menu__link-btn:hover {
     background-color: #ee7171;
     border: 1px solid #ee7171;
-}
-
-.menu__btn-span {
+  }
+  
+  .menu__btn-span {
     color: #fff;
-}
-
+  }
 
