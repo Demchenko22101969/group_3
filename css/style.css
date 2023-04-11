@@ -54,10 +54,13 @@
     color: #fff;
   }
 
-  .slider {
+  .task2 {
     height: 350px;
     background-color: blueviolet;
   }
+
+
+
 
  .task3 {
   background-color: rgb(227, 136, 24);
@@ -94,3 +97,4 @@
  .logo_sm {
   color: rgb(227, 136, 24);
  }
+
