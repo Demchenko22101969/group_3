@@ -76,9 +76,21 @@
  .task5 {
   padding-top: 70px;
   padding-bottom: 70px;
+  border-bottom: 1px solid grey;
 
  }
  .task8 {
   background-color: rgb(227, 136, 24);
  }
+ .task9 {
+  padding-top: 40px;
+  padding-bottom:60px ;
+ }
 
+ .task10 {
+  padding-top: 20px;
+  padding-bottom:20px ;
+ }
+ .logo_sm {
+  color: rgb(227, 136, 24);
+ }
