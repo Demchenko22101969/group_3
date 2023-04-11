@@ -62,11 +62,23 @@
  .task3 {
   background-color: rgb(227, 136, 24);
   
+  
+ }
+ .task4 {
+  margin: 100px;
  }
  .mark {
   width: 40px;
   margin: 0 auto;
   padding: 0;
   
+ }
+ .task5 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+
+ }
+ .task8 {
+  background-color: rgb(227, 136, 24);
  }
 
