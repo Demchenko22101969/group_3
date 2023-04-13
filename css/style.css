@@ -103,6 +103,29 @@
   border-bottom: 1px solid grey;
 
  }
+
+.task6 {
+  height: 500px;
+ 
+  /*background: url(../img/img2.jpg);
+  background-repeat: no-repeat;
+  z-index: -5;*/
+  
+}
+.inf {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.inf_left, .inf_right {
+  height: 450px;
+  width: 300px;
+  border: 5px solid red;
+}
+
+
  .task8 {
   background-color: rgb(227, 136, 24);
  }
