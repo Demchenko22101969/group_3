@@ -1,79 +1,91 @@
 .contact_text {
-    color: rgb(115, 209, 209);
-  }
-  
-  .contact_numer {
-    color: coral;
+  color: rgb(115, 209, 209);
+}
+
+.contact_numer {
+  color: coral;
+}
+.nav-contact {
+  justify-content: end;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-link {
+    font-size: 10px;
   }
   .nav-contact {
-    justify-content: end;
+    justify-content: center;
   }
-  
-  @media screen and (max-width: 992px) {
-    .nav-link {
-      font-size: 10px;
-    }
-    .nav-contact {
-      justify-content: center;
-    }
-  }
-  
-  .menu__list {
-    margin-right: 15px;
-  }
-  
-  .nav-item {
-    margin-right: 7px;
-  }
-  
-  .nav-link {
-    color: rgb(39, 30, 30);
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-  
-  .nav-link:hover {
-    color: rgb(227, 136, 24);
-  }
-  
-  .menu__link-btn {
-    color: #fff;
-    background-color: rgb(227, 136, 24);
-    border: 1px solid rgb(227, 136, 24);
-    border-radius: 50%;
-  }
-  
-  .menu__link-btn:hover {
-    background-color: #ee7171;
-    border: 1px solid #ee7171;
-  }
-  
-  .menu__btn-span {
-    color: #fff;
-  }
+}
 
- 
+.menu__list {
+  margin-right: 15px;
+}
 
- .task3 {
+.nav-item {
+  margin-right: 7px;
+}
+
+.nav-link {
+  color: rgb(39, 30, 30);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: rgb(227, 136, 24);
+}
+
+.menu__link-btn {
+  color: #fff;
   background-color: rgb(227, 136, 24);
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid grey;
-  
- }
- .task4 {
+  border: 1px solid rgb(227, 136, 24);
+  border-radius: 50%;
+}
+
+.menu__link-btn:hover {
+  background-color: #ee7171;
+  border: 1px solid #ee7171;
+}
+
+.menu__btn-span {
+  color: #fff;
+}
+
+.block_on_carousel {
+  position: relative;
+  margin-bottom: 50px;
+}
+.hero-content {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+  font-size: 60px;
+  line-height: 50px;
+}
+.task3 {
+  background-color: rgb(227, 136, 24);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-height: 100px;
+}
+.task4 {
   margin: 100px;
- }
- .mark {
+}
+.mark {
   width: 40px;
   margin: 0 auto;
   padding: 0;
-  
- }
+}
 
- .span_element {
+.span_element {
   position: relative;
   top: 0;
 }
@@ -97,51 +109,54 @@
   background: #ff951e;
 }
 
-
-
- .task5 {
+.task5 {
   padding-top: 70px;
   padding-bottom: 70px;
   border-bottom: 1px solid grey;
-
- }
+}
 
 .task6 {
-  background-image: url(../img/woman_bg.jpg) ;
-  border-bottom: 1px solid grey;
-  
+  background-image: url(../img/woman_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 .big_box {
-  background: (255,255,255,0.9);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .icon {
   font-size: 20px;
   border: 1px solid #ff951e;
   border-radius: 50px;
-  padding: 10px 10px ;
-  margin: 10px;
+  padding: 15px 19px;
+  margin: 10px 20px;
+  color: #ff951e;
 }
 
-.task7 {
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey;
-}
 
- .task8 {
+.task8 {
   background-color: rgb(227, 136, 24);
- }
- .task9 {
+}
+.task9 {
   padding-top: 40px;
-  padding-bottom:60px ;
- }
+  padding-bottom: 60px;
+}
 
- .task10 {
+.task10 {
   padding-top: 20px;
-  padding-bottom:20px ;
- }
- .logo_sm {
+  padding-bottom: 20px;
+}
+.logo_sm {
   color: rgb(227, 136, 24);
- }
+}
+.tel_number {
+  min-width: 100px;
+}
 
+.icon_position {
+  padding-top: 5%;
+}
+.contact_right {
+  padding-top: 85px;
+}

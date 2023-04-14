@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <title>Group_Project_Team_3</title>
   </head>
 
@@ -39,7 +39,7 @@
       </nav>
     </header>
     <!--task1.1 added header part 2 -->
-    <div class="menu navbar navbar-expand-lg bg-light justify-content-center  ">
+    <div class="menu navbar navbar-expand-lg bg-light justify-content-center">
       <a class="navbar-brand col-lg-4 ps-5" href="#">
         <img
           class="menu__logo"
@@ -56,7 +56,7 @@
             <a class="nav-link" href="#"> HEM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Tjänster</a>
+            <a class="nav-link" href="index2.html">Tjänster</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">OM Oss </a>
@@ -77,89 +77,40 @@
     </div>
 
     <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="0"
-          class="active"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#demo"
-          data-bs-slide-to="1"
-        ></button>
-       
-      </div>
-
-      <!-- The slideshow/carousel -->
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="img/crousel_1.jpg"
-            alt="wheel"
-            class="d-block"
-            style="width: 100%"
-          />
-          <div class="carousel-caption">
-            <p>VÄLKOMMEN TILL</p>
-            <h3>Däckspecialisten</h3>
-            <p>i Haninge AB</p>
+        <div class="carousel-item active block_on_carousel">
+          <img src="img/crousel_1.jpg" class="d-block w-100" alt="..." />
+          <div class="hero-content">
+            <h3>Välkommen till</h3>
+            <p class="m-0">Däckspecialisten</p>
+            <h5><b>i Haninge AB</b></h5>
+          </div>
+          <div class="col-12 text-center pt-2 pt-lg-4 task3">
+            <h3 class="text-white">
+              Däckspecialisten i Haninge AB: Sågenvägen 1, 136 72 Vendelsö
+            </h3>
           </div>
         </div>
-        <div class="carousel-item">
-          <img
-            src="img/carousel_2.jpg"
-            alt="wheel2"
-            class="d-block"
-            style="width: 100%"
-          />
-          <div class="carousel-caption">
-            <p>VÄLKOMMEN TILL</p>
-            <h3>Däckspecialisten</h3>
-            <p>i Haninge AB</p>
+        <div class="carousel-item block_on_carousel">
+          <img src="img/carousel_2.jpg" class="d-block w-100" alt="slide2" />
+          <div class="hero-content">
+            <h3>Välkommen till</h3>
+            <p class="m-0">Däckspecialisten</p>
+            <h5><b>i Haninge AB</b></h5>
           </div>
-        </div>
-      </div>
-
-      <!-- Left and right controls/icons -->
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#demo"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#demo"
-        data-bs-slide="next"
-      >
-      <span class="carousel-control-next-icon"></span>
-      </button>
-
-  
-
-
-    </div>
-
-    <section class="task3 py-4 text-center text-lg-center ">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 align-self-center">
+          <div class="col-12 text-center pt-2 pt-lg-4 task3">
             <h3 class="text-white">
               Däckspecialisten i Haninge AB: Sågenvägen 1, 136 72 Vendelsö
             </h3>
           </div>
         </div>
       </div>
-    </section>
-
-
+    </div>
 
     <section class="task4 section mt-5">
       <div class="container">
@@ -233,7 +184,7 @@
                 <div class="mb-5 card px-2 py-5 text-center">
                   <img class="mark" src="img/redv.png" alt="mark" />
                   <br />
-                  <h4>Framvagnsinställnin</h4>
+                  <h4>Framvagnsinställni</h4>
                 </div>
               </div>
             </div>
@@ -254,101 +205,91 @@
       </div>
     </section>
 
-
-
-
-
-
-<section class="task6 consultation section-sm">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-5 col-md-5">
-        <div class="big_box p-sm-5 px-3 py-5 rounded">
-          <div class="span_element ">
-            <h3 class="span_element">Kontakt:</h3>
-            <span class="span_round"></span><span class="span_line"></span>
+    <section class="task6 consultation section-sm">
+      <div class="container big_box">
+        <div class="row justify-content-evenly">
+          <div class="col-lg-5 col-md-5">
+            <div class="p-sm-5 px-3 py-5 rounded">
+              <div class="span_element">
+                <h3 class="span_element">Kontakt:</h3>
+                <span class="span_round"></span><span class="span_line"></span>
+              </div>
+              <ul class="pt-5">
+                <li class="d-flex mb-3">
+                  <div class="icon_position">
+                    <i class="icon bi bi-telephone-fill"></i>
+                  </div>
+                  <div class="tel_number">
+                    <p>08-777-75-61</p>
+                    <p>08-776-44-10</p>
+                  </div>
+                </li>
+                <li class="d-flex mb-3">
+                  <div class="icon_position">
+                    <i class="icon bi bi-envelope-at-fill"></i>
+                  </div>
+                  <div>
+                    <p><b>E-post:</b></p>
+                    <p>info@dackspecialisten.nu</p>
+                  </div>
+                </li>
+                <li class="d-flex mb-3">
+                  <div class="icon_position">
+                    <i class="icon bi bi-house-fill"></i>
+                  </div>
+                  <div>
+                    <p><b>Huvudkontoret:</b></p>
+                    <p>Däckspecialisten i Haninge AB</p>
+                    <p>Sågenvägen 1, 136 72 Vendelsö</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-          <ul class="pt-5">
-            <li class="d-flex mb-3">
-              <i class="icon bi bi-telephone"></i>
-              <div class="align-self-left font-primary">
-                <p>08-777 75 61</p>
-                <p>08-776 44 10</p>
-              </div>
-            </li>
-            <li class="d-flex mb-3">
-              <i class="icon bi bi-envelope-at"></i>
-              <div class="text-left font-primary">
-                <p><b>E-post:</b></p>
-                <p>info@dackspecialisten.nu</p>
-              </div>
-            </li>
-            <li class="d-flex mb-3">
-              <i class="icon bi bi-house"></i>
-              <div class="text-left font-primary">
-                <p><b>Huvudkontoret:</b></p>
-                <p>Däckspecialisten i Haninge AB</p>
-                <p>Sågenvägen 1, 136 72 Vendelsö</p>
-              </div>
-              
-            </li>
 
-          </ul>
+          <div class="col-lg-5 col-md-5">
+            <div class="p-sm-5 px-3 py-5 rounded">
+              <ul class="contact_right">
+                <li class="d-flex mb-3">
+                  <div class="icon_position">
+                    <i class="icon bi bi-clock-fill"></i>
+                  </div>
+                  <div class="tel_number">
+                    <p><b>Öppettider:</b></p>
+                    <p>Mån - Fre</p>
+                    <p>8:00 - 18:00</p>
+                    <p>Lör - Sön</p>
+                    <p>09:00 - 15:00</p>
+                  </div>
+                </li>
+
+                <li class="d-flex mb-3">
+                  <div class="icon_position">
+                    <i class="icon bi bi-house-fill"></i>
+                  </div>
+                  <div>
+                    <p><b>Verkstäder:</b></p>
+                    <p>Sågenvägen 1, 136 72 Vendelsö</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <div class="col-lg-5 col-md-5">
-        <div class="big_box p-sm-5 px-3 py-5 rounded">
-          
-          <ul class="pt-5">
-            <li class="d-flex mb-3">
-              <i class="icon bi bi-telephone"></i>
-              <div class="align-self-left font-primary">
-                <p>08-777 75 61</p>
-                <p>08-776 44 10</p>
-              </div>
-            </li>
-            <li class="d-flex mb-3">
-              <i class="icon bi bi-telephone"></i>
-              <div class="align-self-left font-primary">
-                <p>08-777 75 61</p>
-                <p>08-776 44 10</p>
-              </div>
-            </li>
-            <li class="d-flex mb-3">
-              <i class="icon bi bi-telephone"></i>
-              <div class="align-self-left font-primary">
-                <p>08-777 75 61</p>
-                <p>08-776 44 10</p>
-              </div>
-            </li>
-  
-          </ul>
-        </div>
-      </div>
+    </section>
 
+    <section class="map">
+      <!-- Google Map -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.9307707494531!2d18.189925816067102!3d59.200455281613884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7c106c0fe0b1%3A0xfc429c4711ad685f!2zU8OlZ2VudsOkZ2VuIDEsIDEzNiA3MiBWZW5kZWxzw7Y!5e0!3m2!1ssv!2sse!4v1576932472764!5m2!1ssv!2sse"
+        frameborder="0"
+        style="width: 100%; height: 450px; border: 0"
+        allowfullscreen=""
+      ></iframe>
+    </section>
 
-
-
-
-
-
-    </div>
-    
-
-  </div>
-</section>
-
-
-<section class="task7 map">
-  <!-- Google Map -->
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.9307707494531!2d18.189925816067102!3d59.200455281613884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7c106c0fe0b1%3A0xfc429c4711ad685f!2zU8OlZ2VudsOkZ2VuIDEsIDEzNiA3MiBWZW5kZWxzw7Y!5e0!3m2!1ssv!2sse!4v1576932472764!5m2!1ssv!2sse"
-    frameborder="0" style="width:100%; height:450px;border:0;" allowfullscreen=""></iframe>
-</section>
-
-
-    <section class="task8 py-5 text-center text-lg-center ">
+    <section class="task8 py-5 text-center text-lg-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 align-self-center">
@@ -375,10 +316,7 @@
       </div>
     </section>
 
-
-
-
-    <section class="task10 bg-dark text-light mb-5">
+    <section class="task10 bg-dark text-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -395,10 +333,6 @@
         </div>
       </div>
     </section>
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js "></script>
   </body>
