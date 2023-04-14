@@ -105,25 +105,22 @@
  }
 
 .task6 {
-  height: 500px;
- 
-  /*background: url(../img/img2.jpg);
-  background-repeat: no-repeat;
-  z-index: -5;*/
+  background-image: url(../img/woman_bg.jpg) ;
+  
   
 }
-.inf {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 25px;
-  margin-bottom: 25px;
+.big_box {
+  background: (255,255,255,0.9);
 }
 
-.inf_left, .inf_right {
-  height: 450px;
-  width: 300px;
-  border: 5px solid red;
+.icon {
+  font-size: 20px;
+  border: 1px solid #ff951e;
+  border-radius: 50px;
+  padding: 10px 10px ;
+  margin: 10px;
 }
+
 
 
  .task8 {
