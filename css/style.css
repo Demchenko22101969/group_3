@@ -58,7 +58,9 @@
 
  .task3 {
   background-color: rgb(227, 136, 24);
-  
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
   
  }
  .task4 {
@@ -106,6 +108,7 @@
 
 .task6 {
   background-image: url(../img/woman_bg.jpg) ;
+  border-bottom: 1px solid grey;
   
   
 }
@@ -121,7 +124,10 @@
   margin: 10px;
 }
 
-
+.task7 {
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+}
 
  .task8 {
   background-color: rgb(227, 136, 24);
