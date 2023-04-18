@@ -119,7 +119,6 @@
   background-image: url(../img/woman_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .big_box {
   background: rgba(255, 255, 255, 0.8);
@@ -133,7 +132,6 @@
   margin: 10px 20px;
   color: #ff951e;
 }
-
 
 .task8 {
   background-color: rgb(227, 136, 24);
@@ -159,4 +157,42 @@
 }
 .contact_right {
   padding-top: 85px;
+}
+
+/* page4 */
+
+.button-round {
+  background-color: none; /* Green */
+  border: 2px;
+  border-radius: 50%;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: black;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.dot {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 50%;
+  border-color: grey;
+  font-size: 30px;
+  display: inline-block;
+}
+.round-icon {
+  background-color: none; /* Green */
+  border: none;
+  color: orange;
+  padding: 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0px;
+  margin: 0px 0px;
+  cursor: pointer;
 }
