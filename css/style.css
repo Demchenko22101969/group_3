@@ -8,6 +8,9 @@
 .nav-contact {
   justify-content: end;
 }
+.marginCarusel {
+  margin-top: 8%;
+}
 
 @media screen and (max-width: 992px) {
   .nav-link {
@@ -15,6 +18,9 @@
   }
   .nav-contact {
     justify-content: center;
+  }
+  .marginCarusel {
+    margin-top: 0;
   }
 }
 
@@ -119,7 +125,6 @@
   background-image: url(../img/woman_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .big_box {
   background: rgba(255, 255, 255, 0.8);
@@ -133,7 +138,6 @@
   margin: 10px 20px;
   color: #ff951e;
 }
-
 
 .task8 {
   background-color: rgb(227, 136, 24);
@@ -159,4 +163,62 @@
 }
 .contact_right {
   padding-top: 85px;
+}
+.text_on_img {
+  background-color: #f5f5f5;
+  font-size: xx-large;
+  font-weight: 500;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  min-height: 60px;
+}
+@media screen and (max-width: 768px) {
+  .text_on_img {
+    padding-top: 1%;
+    font-size: medium;
+  }
+}
+.img-text {
+  position: relative;
+}
+.h-on-img {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+.card {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.h-on-img3 {
+  padding-top: 5%;
+  padding-left: 10%;
+  line-height: 60px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+}
+.container_pic {
+  background-color: #000000;
+  min-height: 550px;
+}
+.text_img3 {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.shadow {
+  box-shadow: 15px 10px 10px 10px #888888;
+  min-height: 150px;
+}
+.titleSmallCarusel {
+  font-size: 14px;
+}
+.titleBigCarusel {
+  font-size: 20px;
+  font-weight: 400;
 }
