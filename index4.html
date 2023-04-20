@@ -60,7 +60,7 @@
 
     <div class="menu navbar navbar-expand-lg bg-light justify-content-center">
         <a class="navbar-brand col-lg-4 ps-5" href="#">
-            <img class="menu__logo" src="https://www.dackspecialisten.nu/images/logo.png" alt="img-logo" />
+            <img class="menu__logo" src="img/logo.png" alt="img-logo" />
         </a>
         <div class="menu__content collapse navbar-collapse col-8 justify-content-end pe-5">
             <ul class="menu__list navbar-nav">
@@ -84,30 +84,11 @@
             </a>
         </div>
     </div>
-    <div class="menu__content collapse navbar-collapse col-8 justify-content-end pe-5">
-        <ul class="menu__list navbar-nav">
-            <li class="nav-item">
-                <a class="nav-link" href="#"> HEM</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tjänster</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">OM Oss </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Kontakt</a>
-            </li>
-        </ul>
-        <a class="menu__link" href="#">
-            <button class="menu__link-btn btn rounded-pill px-4 py-2" type="button">
-                <span class="menu__btn-span">INFO@DACKSPECIALISTEN.NU</span>
-            </button>
-        </a>
-    </div>
-    </div>
 
-    <section class="page-title overlay" style="background-image: url(./images/tyres1.jpg);">
+    <div class="col-lg-4 col-md-5">
+        <img class="page-title overlay" src="./img/tyres1.jpg" alt="tyres1">
+    </div>
+    <section class="page-title overlay" style="background-image: url(./img/tyres1.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -118,6 +99,7 @@
         </div>
     </section>
 
+
     <!-- contact -->
     <section class="section pb-0">
         <div class="container">
@@ -125,8 +107,10 @@
                 <div class="col-lg-4 col-md-5">
                     <h2>Kontakt</h2>
                     <ul class="pl-0">
-                        <li class="d-flex mb-30">
-                            <button <span class="dot"></span><i class="round-icon mr-3 fa fa-phone"></i></button>
+                        <li class="d-flex mb-3">
+                            <div class="icon_position">
+                                <i class="icon bi bi-telephone-fill"></i>
+                            </div>
                             <div class="align-self-left font-primary">
                                 <!--<p>08-777 75 61</p>-->
                                 <a class="phone-link link" href="tel:+08-777 75 61">+38(096)087777561</a>
@@ -134,9 +118,10 @@
                                 <a class="phone-link link" href="tel:+08-776 44 10">+38(096)087764410</a>
                             </div>
                         </li>
-                        <li class="d-flex mb-30">
-                            <button <span class="dot"></span><i class="round-icon mr-3 fa fa-envelope"></i>
-                            </button>
+                        <li class="d-flex mb-3">
+                            <div class="icon_position">
+                                <i class="icon bi bi-envelope-at-fill"></i>
+                            </div>
                             <div class="text-left font-primary">
                                 <p><b>E-post:</b></p>
                                 <!-- <p>info@dackspecialisten.nu</p>-->
@@ -145,7 +130,9 @@
                             </div>
                         </li>
                         <li class="d-flex mb-30">
-                            <button <span class="dot"></span><i class="round-icon mr-3 fa fa-home"></i></button>
+                            <div class="icon_position">
+                                <i class="icon bi bi-house-fill"></i>
+                            </div>
                             <div class="text-left font-primary">
                                 <p><b>Huvudkontoret:</b></p>
                                 <p>Däckspecialisten i Haninge AB</p>
@@ -161,7 +148,9 @@
                     <ul class="pl-0">
                         <!-- contact items -->
                         <li class="d-flex mb-30">
-                            <button <span class="dot"></span><i class="round-icon mr-3 fa fa-clock-o"></i></button>
+                            <div class="icon_position">
+                                <i class="icon bi bi-clock-fill"></i>
+                            </div>
                             <div class="align-self-left font-primary">
                                 <p><b>Öppettider:</b></p>
                                 <p>Mån - Fre</p>
@@ -171,7 +160,9 @@
                             </div>
                         </li>
                         <li class="d-flex mb-30">
-                            <button <span class="dot"></span><i class="round-icon mr-3 fa fa-home"></i></button>
+                            <div class="icon_position">
+                                <i class="icon bi bi-house-fill"></i>
+                            </div>
                             <div class="text-left font-primary">
                                 <p><b>Verkstäder:</b></p>
                                 <p>(1) Sågenvägen 1, 136 72 Vendelsö</p>
@@ -181,7 +172,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-5">
-                    <img class="img-fluid w-100" src="./images/verkstad.jpg" alt="clients-image">
+                    <img class="img-fluid w-100" src="./img/verkstad.jpg" alt="clients-image">
                 </div>
             </div>
         </div>
@@ -195,7 +186,7 @@
 
                 </div>
                 <div class="col-lg-5 col-md-5 pr-0 align-self-center">
-                    <img class="img-fluid w-100" src="./images/tyre57.jpg" alt="">
+                    <img class="img-fluid w-100" src="./img/tyre57.jpg" alt="">
                 </div>
                 <div class="col-lg-7 col-md-7 align-self-center pl-0">
                     <div class="testimonial-slider p-5">
@@ -223,23 +214,58 @@
             </div>
         </div>
     </section>
+
+    <!-- Google Map -->
     <section class="map">
-        <!-- Google Map -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042.9307707494531!2d18.189925816067102!3d59.200455281613884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f7c106c0fe0b1%3A0xfc429c4711ad685f!2zU8OlZ2VudsOkZ2VuIDEsIDEzNiA3MiBWZW5kZWxzw7Y!5e0!3m2!1ssv!2sse!4v1576932472764!5m2!1ssv!2sse"
             frameborder="0" style="width:100%; height:450px;border:0;" allowfullscreen=""></iframe>
     </section>
 
-    <section class="bg-primary py-4">
+
+    <!-- footer from p1-->
+    <section class="task8 py-5 text-center text-lg-center">
         <div class="container">
-            <div class=" align-self-center">
-                <a href="#" class="text-center d-block outline-0 py-3 px-2"><img src="./images/tyre0.png"
-                        alt="däck-logo"></a>
-
-
+            <div class="row">
+                <div class="col-lg-12 align-self-center">
+                    <img src="img/wheels.png" alt="wheels" />
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="task5 bg-dark text-center text-light text-lg-center">
+        <div class="task9 container">
+            <div class="row">
+                <div class="col-lg-12 align-self-center">
+                    <img class="menu__logo" src="https://www.dackspecialisten.nu/images/logo.png" alt="img-logo" />
+                    <p class="text-white">
+                        Däckspecialisten i Haninge AB: Sågenvägen 1, 136 72 Vendelsö
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="task10 bg-dark text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="botom">
+                        <div class="row">
+                            <p class="left col-10">
+                                <span class="logo_sm">Däckspecialisten</span> © 2023 All Right
+                                Reserved
+                            </p>
+                            <p class="right col-2">Design</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js "></script>
 
     <!-- footer -->
     <footer class="bg-secondary">
